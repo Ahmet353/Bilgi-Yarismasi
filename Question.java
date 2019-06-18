@@ -1,4 +1,4 @@
-package com.example.fatihdemirel.milyoner;
+package com.example.ahmet.milyoner;
 
 public class Question {
     private int questionID;
