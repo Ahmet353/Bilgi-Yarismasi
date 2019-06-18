@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:background="@drawable/spectator" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/optionAText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A)"
+                android:textColor="@color/menu_btn_color"
+                android:textSize="@dimen/question_size" />
+
+            <TextView
+                android:id="@+id/optionApercentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="percent"
+                android:textColor="@color/menu_btn_color"
+                android:textSize="@dimen/spectator_percent_text_size" />
+
+            <ProgressBar
+                android:id="@+id/progressA"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:max="100"
+                android:progress="80" />
+
+            <TextView
+                android:id="@+id/optionBText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B)"
+                android:textColor="@color/menu_btn_color"
+                android:textSize="@dimen/question_size" />
+
+            <TextView
+                android:id="@+id/optionBpercentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="percent"
+                android:textColor="@color/menu_btn_color"
+                android:textSize="@dimen/spectator_percent_text_size" />
+
+            <ProgressBar
+                android:id="@+id/progressB"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:max="100"
+                android:progress="80" />
+
+            <TextView
+                android:id="@+id/optionCText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C)"
+                android:textColor="@color/menu_btn_color"
+                android:textSize="@dimen/question_size" />
+
+            <TextView
+                android:id="@+id/optionCpercentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="percent"
+                android:textColor="@color/menu_btn_color"
+                android:textSize="@dimen/spectator_percent_text_size" />
+
+            <ProgressBar
+                android:id="@+id/progressC"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:max="100"
+                android:progress="80" />
+
+            <TextView
+                android:id="@+id/optionDText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D)"
+                android:textColor="@color/menu_btn_color"
+                android:textSize="@dimen/question_size" />
+
+            <TextView
+                android:id="@+id/optionDpercentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="percent"
+                android:textColor="@color/menu_btn_color"
+                android:textSize="@dimen/spectator_percent_text_size" />
+
+            <ProgressBar
+                android:id="@+id/progressD"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:max="100"
+                android:progress="80" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/dialog_spectator_cancel"
+        android:layout_width="200dp"
+        android:textColor="@color/menu_btn_color"
+        android:text="Tamam"
+        android:layout_height="50dp"
+        android:background="@drawable/option"/>
+
+</LinearLayout>

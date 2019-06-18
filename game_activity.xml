@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center|bottom"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/timebackground"
+            android:gravity="center"
+            android:textColor="@color/menu_btn_color"
+            android:textSize="@dimen/bid_text_size" />
+
+        <ImageView
+            android:id="@+id/money_tree_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/moneytree_btn" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/question_panel"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/question_bar"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_value_tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/question_value_bar"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/question_value_color"
+            android:textSize="@dimen/questiontext_size" />
+        <TextView
+            android:id="@+id/question_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/question_color"
+            android:textSize="@dimen/questiontext_size" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/option_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/option_btn_height"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/option"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="@color/menu_btn_color"
+        android:textSize="@dimen/optiontext_size" />
+
+    <Button
+        android:id="@+id/option_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/option_btn_height"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/option"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="@color/menu_btn_color"
+        android:textSize="@dimen/optiontext_size" />
+
+    <Button
+        android:id="@+id/option_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/option_btn_height"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/option"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="@color/menu_btn_color"
+        android:textSize="@dimen/optiontext_size" />
+
+    <Button
+        android:id="@+id/option_4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/option_btn_height"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/option"
+        android:textColor="@color/menu_btn_color"
+        android:textSize="@dimen/optiontext_size" />
+
+
+</LinearLayout>

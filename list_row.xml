@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="#000000"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/best_score_position_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="sıra"
+        android:textColor="@color/best_gamer_text_color"
+        android:textSize="@dimen/best_gamer_text_size" />
+
+    <ImageView
+        android:id="@+id/best_score_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/best_score_position_tv"
+        android:background="@drawable/gamer_photo" />
+
+    <TextView
+        android:id="@+id/best_score_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/best_score_img"
+        android:text="asdasdasd"
+        android:textColor="@color/best_gamer_text_color"
+        android:textSize="@dimen/best_gamer_text_size" />
+
+    <TextView
+        android:id="@+id/best_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="Score"
+        android:textColor="@color/best_gamer_text_color"
+        android:textSize="@dimen/best_gamer_text_size" />
+
+
+</RelativeLayout>
