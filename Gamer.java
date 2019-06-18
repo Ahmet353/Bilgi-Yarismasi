@@ -1,8 +1,6 @@
-package com.example.fatihdemirel.milyoner;
+package com.example.ahmet.milyoner;
 
-/**
- * Created by Fatihh on 18.1.2017.
- */
+
 public class Gamer {
     public  String userID;
     public  String username;
