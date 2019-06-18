@@ -1,4 +1,4 @@
-package com.example.fatihdemirel.milyoner;
+package com.example.ahmet.milyoner;
 
 import android.app.Activity;
 import android.os.Bundle;
