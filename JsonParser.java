@@ -1,4 +1,4 @@
-package com.example.fatihdemirel.milyoner;
+package com.example.ahmet.milyoner;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
